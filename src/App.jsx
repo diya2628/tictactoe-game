@@ -99,6 +99,7 @@ function App() {
         Current History Of Game
       </h2>
       <Historyy history={history} moveTo={moveTo} currentMove={currentMove} />
+      <div className="bg-balls"></div>
     </div>
   );
 }
